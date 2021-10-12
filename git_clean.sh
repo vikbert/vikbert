@@ -66,14 +66,23 @@ else
   read -p "Delete? (y/n): " -n 1 selection
   echo
   if [ "$selection" == "y" ] || [ "$selection" == "Y" ]; then
-    # delete remote branches
-    # git push origin `git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$" | grep -v "develop" |grep -v "staging"|sed 's/origin\//:/g' | tr -d '\n'`
+    if [ "$DRY_RUN" == true ] ; then
+      print_info "Dry-run: these branches are candiates to be deleted:"
+      git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$" | grep -v "develop" |grep -v "staging"|sed 's/origin\//:/g' | tr -d '\n';;
+    else
+      # git push origin `git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$" | grep -v "develop" |grep -v "staging"|sed 's/origin\//:/g' | tr -d '\n'`
+      print_success "Deleting remote branches";;
+    fi
 
-    # delete local branches
-    #git branch -d `git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "staging" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'`
-    print_green 'deleting local branch'
+    if [ "$DRY_RUN" == true ] ; then
+      print_info "Dry-run: these branches are candiates to be deleted:"
+      git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "staging" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'
+    else
+      #git branch -d `git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "staging" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'`
+      print_green 'Deleting local branch';;
+    fi
 
   else
-    echo "No Branches Were deleted."
+    print_warning "No Branches Were deleted."
   fi
 fi
