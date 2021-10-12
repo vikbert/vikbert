@@ -10,21 +10,25 @@ normal=$(tput sgr0)
 
 print_success() {
     message="$1"
+    echo
     echo -e "✅ $GREEN$message$NC";
 }
 
 print_info() {
     message="$1"
+    echo
     echo -e "🗣  $CYAN$message$NC";
 }
 
 print_warning() {
     message="$1"
+    echo
     echo -e "🔅 $YELLOW$message$NC";
 }
 
 print_error() {
     message="$1"
+    echo
     echo -e "❌ $RED$message$NC";
 }
 
