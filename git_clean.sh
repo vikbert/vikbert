@@ -1,10 +1,37 @@
 #!/usr/bin/env bash
+source printing.sh
+
+PRIMARY_BRANCH='main'
+
+switch_branch() {
+  target="$1"
+  git checkout $target
+  print_success "Swithc to the primary branch $target"
+}
+
+select_primary_branch() {
+    read -p "Do you wish to switch to the ${bold}primary${normal} branch (1-main 2-master, 1 or 2)?" selection
+    print_hr
+    case $selection in
+        [1]* ) switch_branch "main";;
+        [2]* ) switch_branch "master";;
+        * ) print_error "Please answer 1 or 2.";;
+    esac
+}
+
+detect_primary_branch_switched() {
+  present_branch=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+  if [ "$present_branch" != "main" ]; then
+  print_error "You are on branch '$present_branch', please switch to your primary branch: main | master";
+  exit;
+  fi
+}
+
+select_primary_branch
 
 #------- detect current active branch name
-present_branch=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
-if [ "$present_branch" != "main" ]; then
-  echo "WARNING: You are on branch $present_branch, NOT main."
-fi
+
+
 echo "Fetching merged branches..."
 git remote prune origin
 remote_branches=$(git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$")
@@ -28,7 +55,9 @@ else
     # git push origin `git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$" | grep -v "develop" |grep -v "staging"|sed 's/origin\//:/g' | tr -d '\n'`
 
     # delete local branches
-    git branch -d `git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "staging" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'`
+    #git branch -d `git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "staging" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'`
+    print_green 'deleting local branch'
+
   else
     echo "No Branches Were deleted."
   fi
