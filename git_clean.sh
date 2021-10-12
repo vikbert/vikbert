@@ -8,7 +8,7 @@ switch_branch() {
   PRIMARY_BRANCH="$1"
   #git stash
   git checkout $PRIMARY_BRANCH
-  print_success "Swithc to the primary branch $PRIMARY_BRANCH"
+  print_success "Switch to the ${bold}primary${normal} branch $PRIMARY_BRANCH"
 }
 
 select_primary_branch() {
@@ -53,12 +53,14 @@ local_branches=$(git branch --merged | grep -v "$PRIMARY_BRANCH$")
 if [ -z "$remote_branches" ] && [ -z "$local_branches" ]; then
   print_warning "No existing branches have been merged into $PRIMARY_BRANCH."
 else
-  print_info "This will remove the following branches:"
-  print_hr
   if [ -n "$remote_branches" ]; then
+    print_info "Found remote branches:"
+    print_hr
     echo "$remote_branches"
   fi
   if [ -n "$local_branches" ]; then
+    print_info "Found local branches:"
+    print_hr
     echo "$local_branches"
   fi
   print_hr
@@ -67,6 +69,7 @@ else
   echo
   if [ "$selection" == "y" ] || [ "$selection" == "Y" ]; then
     if [ "$DRY_RUN" == true ] ; then
+<<<<<<< Updated upstream
       print_info "Dry-run: these branches are candiates to be deleted:"
       git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$" | grep -v "develop" |grep -v "staging"|sed 's/origin\//:/g' | tr -d '\n';;
     else
@@ -80,6 +83,21 @@ else
     else
       #git branch -d `git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "staging" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'`
       print_green 'Deleting local branch';;
+=======
+      print_info "Dry-run: removable remote branches"
+      git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$" | grep -v "develop" |grep -v "master"|sed 's/origin\//:/g' | tr -d '\n'
+    else
+      # git push origin `git branch -r --merged | grep -v '/main$' | grep -v "/$present_branch$" | grep -v "develop" |grep -v "staging"|sed 's/origin\//:/g' | tr -d '\n'`
+      print_success "Deleting remote branches"
+    fi
+
+    if [ "$DRY_RUN" == true ] ; then
+      print_info "Dry-run: removable local branches"
+      git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "master" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'
+    else
+      #git branch -d `git branch --merged | grep -v 'main$' | grep -v "develop" | grep -v "staging" | grep -v "$present_branch$" | sed 's/origin\///g' | tr -d '\n'`
+      print_green 'Deleting local branch'
+>>>>>>> Stashed changes
     fi
 
   else
