@@ -1,16 +1,13 @@
-### Hi there 👋
+### Hi there
 
-<!--
-**vikbert/vikbert** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 I’m currently working on **"rewriting OAuth2 Mock server with NestJS"**
+- 🌱 I’m currently learning **Domain-Driven-Design**
+- 🤔 I’m looking for help with some of my projects: [shellhero](https://link), [koding](https://github.com/vikbert/koding), [Symfony-RealWorld-Onion](https://github.com/vikbert/symfony-realworld-onion)
+- 💬 Ask me about **Symfony**, **ReactJS**, **TypeScript**
+- 📫 How to reach me: <vikbert.github.io>
+- ⚡ Fun fact: _"In fact, most of the troubles happen when we stop trying to be kids and behave more like grown-ups."_ [Hayao miyaszki](https://de.wikipedia.org/wiki/Hayao_Miyazaki)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=vikbert&show_icons=true&theme=gruvbox" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=vikbert&theme=gruvbox" />
+</p>
