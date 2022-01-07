@@ -1,6 +1,6 @@
 ### Hi there
 
-- 🔭 I’m currently working on **"rewriting OAuth2 Mock server with NestJS"**
+- 🔭 I’m currently working on **"Design Pattern in PHP8"**
 - 🌱 I’m currently learning **Domain-Driven-Design**
 - 🤔 I’m looking for help with some of my projects: [shellhero](https://github.com/vikbert/shellhero), [koding](https://github.com/vikbert/koding), [Symfony-RealWorld-Onion](https://github.com/vikbert/symfony-realworld-onion)
 - 💬 Ask me about **Symfony**, **ReactJS**, **TypeScript**
