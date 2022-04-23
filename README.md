@@ -1,6 +1,6 @@
 ### Hi there
 
-- 🔭 I’m currently working on **"Advanced PHP8"**
+- 🔭 I’m currently working on **"Advanced Programming with PHP8"**
 - 🌱 I’m currently learning **Domain-Driven-Design** & **Golang**
 - 🤔 I’m looking for help with some of my projects: [shellhero](https://github.com/vikbert/shellhero), [koding](https://github.com/vikbert/koding), [Symfony-RealWorld-Onion](https://github.com/vikbert/symfony-realworld-onion)
 - 💬 Ask me about **Symfony**, **ReactJS**, **TypeScript**
