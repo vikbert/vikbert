@@ -1,6 +1,6 @@
 ### Hi there
 
-- 👨🏻‍💻 I’m currently working on **"Advanced Programming with PHP8"**
+- 👨🏻‍💻 I’m currently working on **"Design pattern in Golang"**
 - 👓 I’m currently learning **Domain-Driven-Design** & **Golang**
 - 🤔 I’m looking for help with some of my projects: [shellhero](https://github.com/vikbert/shellhero), [koding](https://github.com/vikbert/koding)
 - 💬 Ask me about **Symfony**, **ReactJS**, **TypeScript**
