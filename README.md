@@ -146,6 +146,7 @@ YAML         25 mins         ░░░░░░░░░░░░░░░░░
 ---
 
 <!-- Support Section -->
+<!-- 
 <div align="center">
 
 <p>If you find my work helpful, consider buying me a coffee!</p>
@@ -155,4 +156,4 @@ YAML         25 mins         ░░░░░░░░░░░░░░░░░
 </a>
 
 </div>
-
+-->
