@@ -167,9 +167,6 @@ func main() {
 
 <!-- GitHub Stats with 3D Contribution Graph -->
 <div align="center">
-
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikbert&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
-
 ```text
 Go           12 hrs 30 mins  ████████████░░░░░░░░░  75.2%
 PHP          5 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  23.1%
