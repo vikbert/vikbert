@@ -13,28 +13,19 @@
   <a href="https://linkedin.com/in/yourprofile">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
   </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email"/>
-  </a>
-  <a href="https://yourportfolio.com">
+  <a href="https://vikbert.github.io">
     <img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=000000" alt="Portfolio"/>
   </a>
 </p>
 
 <!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=brightgreen&style=flat-square" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=vikbert&label=Profile%20Views&color=brightgreen&style=flat-square" alt="Profile Views"/>
 
 </div>
 
 ---
 
-<!-- About Me Section with Cool Design -->
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A Little About Me...
+### About Me
 
 ```go
 package main
@@ -53,16 +44,15 @@ type SoftwareEngineer struct {
 
 func main() {
     me := SoftwareEngineer{
-        Name:         "Your Name",
+        Name:         "Xun Zhou",
         Role:         "Senior Software Engineer",
-        Location:     "Earth 🌍",
+        Location:     "Berlin, Germany",
         Languages:    []string{"Go", "PHP", "JavaScript", "TypeScript"},
         Architecture: []string{"Microservices", "Event-Driven", "REST", "gRPC"},
-        CurrentFocus: "Building scalable distributed systems",
+        CurrentFocus: "Building scalable distributed systems in GCP Cloud",
         Motto:        "Code is poetry, systems are symphonies",
     }
     
-    fmt.Printf("👋 Hi! I'm %s\n", me.Name)
     fmt.Printf("💼 %s specializing in backend & full-stack\n", me.Role)
     fmt.Printf("🎯 Currently: %s\n", me.CurrentFocus)
 }
@@ -338,9 +328,9 @@ YAML         25 mins         ░░░░░░░░░░░░░░░░░
 ## 🐍 Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vikbert/vikbert/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vikbert/vikbert/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vikbert/vikbert/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
@@ -354,32 +344,12 @@ YAML         25 mins         ░░░░░░░░░░░░░░░░░
 
 <p>If you find my work helpful, consider buying me a coffee!</p>
 
-<a href="https://www.buymeacoffee.com/yourusername" target="_blank">
+<a href="https://www.buymeacoffee.com/vikbert" target="_blank">
 <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200"/>
 </a>
 
 </div>
 
----
-
-<!-- Connect with Me -->
-<div align="center">
-
-## 🤝 Let's Connect!
-
-<p>I'm always open to interesting conversations and collaboration opportunities!</p>
-
-<a href="https://linkedin.com/in/yourprofile">
-<img src="https://img.shields.io/badge/Let's%20Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:your.email@example.com">
-<img src="https://img.shields.io/badge/Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-<a href="https://twitter.com/yourhandle">
-<img src="https://img.shields.io/badge/Follow%20Me-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-</a>
-
-<br/><br/>
 
 <!-- Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
