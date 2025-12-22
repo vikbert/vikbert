@@ -167,6 +167,8 @@ func main() {
 
 <!-- GitHub Stats with 3D Contribution Graph -->
 <div align="center">
+
+<!--START_SECTION:waka-->
 ```text
 Go           12 hrs 30 mins  ████████████░░░░░░░░░  75.2%
 PHP          5 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  23.1%
