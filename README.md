@@ -168,104 +168,14 @@ func main() {
 <!-- GitHub Stats with 3D Contribution Graph -->
 <div align="center">
 
-## 📊 GitHub Analytics
-
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vikbert&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" alt="GitHub Stats"/>
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=vikbert&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866" alt="GitHub Streak"/>
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikbert&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=vikbert&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF" alt="Activity Graph"/>
-
-<!-- 3D Contribution Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vikbert&custom_title=Contribution%20Graph&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF&hide_border=true&area=true" width="98%" alt="Contribution Graph"/>
 
 </div>
 
 ---
-
-<!-- Trophy Section -->
-<div align="center">
-
-## 🏆 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=vikbert&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
-
-</div>
-
----
-
-<!-- Featured Projects with Cards -->
-<div align="center">
-
-## 🌟 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-<h3 align="center">🚀 Microservices Platform</h3>
-<div align="center">
-<a href="https://github.com/yourusername/project1" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vikbert&repo=project1&theme=radical&hide_border=true&bg_color=0D1117" alt="Project 1"/>
-</a>
-<p>
-<a href="https://github.com/yourusername/project1" target="_blank">
-<img src="https://img.shields.io/badge/Code-Go-00ADD8?style=for-the-badge&logo=go"/>
-</a>
-</p>
-<p><strong>Go, gRPC, Kubernetes</strong> - High-performance microservices handling 100K+ RPS with distributed tracing and service mesh.</p>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">⚡ Real-time Analytics Engine</h3>
-<div align="center">
-<a href="https://github.com/yourusername/project2" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vikbert&repo=project2&theme=radical&hide_border=true&bg_color=0D1117" alt="Project 2"/>
-</a>
-<p>
-<a href="https://github.com/yourusername/project2" target="_blank">
-<img src="https://img.shields.io/badge/Code-PHP-777BB4?style=for-the-badge&logo=php"/>
-</a>
-</p>
-<p><strong>PHP, Laravel, Redis</strong> - Real-time data processing platform with event streaming and WebSocket integration.</p>
-</div>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<h3 align="center">🎨 Modern Web Framework</h3>
-<div align="center">
-<a href="https://github.com/yourusername/project3" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vikbert&repo=project3&theme=radical&hide_border=true&bg_color=0D1117" alt="Project 3"/>
-</a>
-<p>
-<a href="https://github.com/yourusername/project3" target="_blank">
-<img src="https://img.shields.io/badge/Code-JavaScript-F7DF1E?style=for-the-badge&logo=javascript"/>
-</a>
-</p>
-<p><strong>Node.js, React, TypeScript</strong> - Full-stack framework with SSR, state management, and progressive web app support.</p>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">🔐 Security Toolkit</h3>
-<div align="center">
-<a href="https://github.com/yourusername/project4" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vikbert&repo=project4&theme=radical&hide_border=true&bg_color=0D1117" alt="Project 4"/>
-</a>
-<p>
-<a href="https://github.com/yourusername/project4" target="_blank">
-<img src="https://img.shields.io/badge/Code-Multi-00ADD8?style=for-the-badge&logo=github"/>
-</a>
-</p>
-<p><strong>Go, PHP, JS</strong> - Comprehensive security library with OAuth2, JWT, and encryption utilities for multiple languages.</p>
-</div>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
 <!-- Coding Activity -->
 <div align="center">
 
@@ -273,7 +183,7 @@ func main() {
 
 <!--START_SECTION:waka-->
 ```text
-Go           12 hrs 30 mins  ████████████░░░░░░░░░  55.2%
+Go           12 hrs 30 mins  ████████████░░░░░░░░░  75.2%
 PHP          5 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  23.1%
 JavaScript   3 hrs 20 mins   ███░░░░░░░░░░░░░░░░░░  14.7%
 TypeScript   1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░░   5.2%
@@ -285,55 +195,8 @@ YAML         25 mins         ░░░░░░░░░░░░░░░░░
 
 ---
 
-<!-- Random Dev Quote -->
-<div align="center">
-
-## 💭 Dev Quote of the Day
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
-
-</div>
-
----
-
-<!-- Latest Blog Posts -->
-<div align="center">
-
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Building High-Performance APIs with Go](https://yourblog.com/go-api-performance)
-- [PHP 8.3: Modern Features You Should Know](https://yourblog.com/php-8-features)
-- [JavaScript Design Patterns in 2024](https://yourblog.com/js-design-patterns)
-- [Microservices Architecture Best Practices](https://yourblog.com/microservices-best-practices)
-- [Docker & Kubernetes: Complete Guide](https://yourblog.com/docker-kubernetes-guide)
-<!-- BLOG-POST-LIST:END -->
-
-➡️ [View All Posts](https://yourblog.com)
-
-</div>
-
----
-
-<!-- Snake Animation -->
-<div align="center">
-
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vikbert/vikbert/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vikbert/vikbert/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vikbert/vikbert/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
----
-
 <!-- Support Section -->
 <div align="center">
-
-## 💖 Support My Work
 
 <p>If you find my work helpful, consider buying me a coffee!</p>
 
@@ -343,8 +206,3 @@ YAML         25 mins         ░░░░░░░░░░░░░░░░░
 
 </div>
 
-
-<!-- Animated Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
-
-</div>
