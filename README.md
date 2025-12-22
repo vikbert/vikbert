@@ -3,24 +3,17 @@
 <!-- Animated Header -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Welcome%20to%20My%20Digital%20Workspace&fontSize=42&fontAlignY=30&desc=Building%20the%20Future,%20One%20Line%20at%20a%20Time&descAlignY=51&descAlign=50&animation=twinkling"/>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Software+Engineer+%F0%9F%92%BB;Go+%7C+PHP+%7C+JavaScript+Expert+%F0%9F%9A%80;Architecting+Scalable+Systems+%F0%9F%8F%97%EF%B8%8F;Open+Source+Contributor+%E2%9C%A8;Always+Learning%2C+Always+Building+%F0%9F%94%A5" alt="Typing SVG" />
-
 <br/>
 
 <!-- Social Links with Animation -->
 <p>
-  <a href="https://linkedin.com/in/yourprofile">
+  <a href="https://linkedin.com/in/xun-zhou-0648772">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
   </a>
   <a href="https://vikbert.github.io">
     <img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=000000" alt="Portfolio"/>
   </a>
 </p>
-
-<!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=vikbert&label=Profile%20Views&color=brightgreen&style=flat-square" alt="Profile Views"/>
-
 </div>
 
 ---
