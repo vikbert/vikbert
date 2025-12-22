@@ -1,14 +1,13 @@
 <div align="center">
-
-<!-- Social Links with Animation -->
-<p>
-  <a href="https://linkedin.com/in/xun-zhou-0648772">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
-  </a>
-  <a href="https://vikbert.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=000000" alt="Portfolio"/>
-  </a>
-</p>
+    <!-- Social Links with Animation -->
+    <p>
+    <a href="https://linkedin.com/in/xun-zhou-0648772">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
+    </a>
+    <a href="https://vikbert.github.io">
+        <img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=safari&logoColor=white&labelColor=000000" alt="Portfolio"/>
+    </a>
+    </p>
 </div>
 
 ---
@@ -101,7 +100,6 @@ YAML         25 mins         ░░░░░░░░░░░░░░░░░
    </tr>
 </table>
 
----
 
 <!-- Support Section -->
 <!-- 
