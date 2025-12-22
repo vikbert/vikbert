@@ -46,10 +46,6 @@ YAML                  ░░░░░░░░░░░░░░░░░░░�
          <br>PHP
       </td>
       <td align="center" width="96">
-         <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-         <br>TypeScript
-      </td>
-      <td align="center" width="96">
          <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
          <br>React
       </td>
