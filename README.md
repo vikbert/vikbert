@@ -14,7 +14,7 @@
 
 <div align="center">
 
-### Programming in percent
+### My tech stack breakdown by percentage
 
 <!--START_SECTION:waka-->
 ```text
