@@ -1,0 +1,18 @@
+name: WakaTime Stats
+
+on:
+  schedule:
+    # Runs at every 12AM UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update this repo's README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # Optional: Specify the repository (defaults to current repo)
+          # REPOSITORY: YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME

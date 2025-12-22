@@ -1,0 +1,25 @@
+name: Latest Blog Posts
+
+on:
+  schedule:
+    # Runs every hour
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Pull in blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # Replace with your blog's RSS feed URL
+          feed_list: "https://yourblog.com/feed.xml"
+          # Optional: max number of posts
+          max_post_count: 5
+          # Optional: customize the template
+          template: "- [$title]($url)"
