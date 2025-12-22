@@ -13,14 +13,14 @@
 ---
 
 <div align="center">
-
+### Programming in percent
 <!--START_SECTION:waka-->
 ```text
-Go           12 hrs 30 mins  ████████████░░░░░░░░░  75.2%
-PHP          5 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  23.1%
-JavaScript   3 hrs 20 mins   ███░░░░░░░░░░░░░░░░░░  14.7%
-TypeScript   1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░░   5.2%
-YAML         25 mins         ░░░░░░░░░░░░░░░░░░░░░   1.8%
+Go                    ████████████░░░░░░░░░  75.2%
+PHP                   ████░░░░░░░░░░░░░░░░░  23.1%
+JavaScript            ███░░░░░░░░░░░░░░░░░░  14.7%
+TypeScript            █░░░░░░░░░░░░░░░░░░░░   5.2%
+YAML                  ░░░░░░░░░░░░░░░░░░░░░   1.8%
 ```
 <!--END_SECTION:waka-->
 
