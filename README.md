@@ -18,40 +18,20 @@
 
 ---
 
-### About Me
+<!-- GitHub Stats with 3D Contribution Graph -->
+<div align="center">
 
-```go
-package main
-
-import "fmt"
-
-type SoftwareEngineer struct {
-    Name           string
-    Role           string
-    Location       string
-    Languages      []string
-    Architecture   []string
-    CurrentFocus   string
-    Motto          string
-}
-
-func main() {
-    me := SoftwareEngineer{
-        Name:         "Xun Zhou",
-        Role:         "Senior Software Engineer",
-        Location:     "Berlin, Germany",
-        Languages:    []string{"Go", "PHP", "JavaScript", "TypeScript"},
-        Architecture: []string{"Microservices", "Event-Driven", "REST", "gRPC"},
-        CurrentFocus: "Building scalable distributed systems in GCP Cloud",
-        Motto:        "Code is poetry, systems are symphonies",
-    }
-    
-    fmt.Printf("💼 %s specializing in backend & full-stack\n", me.Role)
-    fmt.Printf("🎯 Currently: %s\n", me.CurrentFocus)
-}
+<!--START_SECTION:waka-->
+```text
+Go           12 hrs 30 mins  ████████████░░░░░░░░░  75.2%
+PHP          5 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  23.1%
+JavaScript   3 hrs 20 mins   ███░░░░░░░░░░░░░░░░░░  14.7%
+TypeScript   1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░░   5.2%
+YAML         25 mins         ░░░░░░░░░░░░░░░░░░░░░   1.8%
 ```
+<!--END_SECTION:waka-->
 
-<br clear="right"/>
+</div>
 
 ---
 
@@ -160,23 +140,6 @@ func main() {
 </td>
 </tr>
 </table>
-
-</div>
-
----
-
-<!-- GitHub Stats with 3D Contribution Graph -->
-<div align="center">
-
-<!--START_SECTION:waka-->
-```text
-Go           12 hrs 30 mins  ████████████░░░░░░░░░  75.2%
-PHP          5 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  23.1%
-JavaScript   3 hrs 20 mins   ███░░░░░░░░░░░░░░░░░░  14.7%
-TypeScript   1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░░   5.2%
-YAML         25 mins         ░░░░░░░░░░░░░░░░░░░░░   1.8%
-```
-<!--END_SECTION:waka-->
 
 </div>
 
